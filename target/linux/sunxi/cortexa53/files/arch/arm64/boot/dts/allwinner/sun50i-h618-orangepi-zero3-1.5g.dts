@@ -1,0 +1,11 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "xunlong,orangepi-zero3", "allwinner,sun50i-h618";
+
+    memory@40000000 {
+        device_type = "memory";
+        reg = <0x0 0x40000000 0x0 0x60000000>;  // 1.5GB RAM
+    };
+};
